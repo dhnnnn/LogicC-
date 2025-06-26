@@ -30,7 +30,8 @@ usia = 2023 - tahun_lahir
 
 ## 🛠️ Cara Menjalankan
 1. Clone repositori
-```
+```bash
+https://github.com/dhnnnn/BelajarCPP.git
 ```
 2. Compile menggunakan compiler C++, seperti g++:
 ```
