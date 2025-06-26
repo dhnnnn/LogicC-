@@ -7,16 +7,20 @@ Program ini merupakan aplikasi sederhana berbasis C++ yang memungkinkan pengguna
 1. Menghitung Luas Segitiga
 Menggunakan rumus:
 ```
+luas = 0.5 × alas × tinggi
 ```
 
 2. PMenghitung Volume Tabung
 Menggunakan rumus:
 ```
+volume = π × r² × tinggi
+(π diasumsikan 3.14)
 ```
 
 3. Menghitung Usia
 Berdasarkan input tahun lahir, lalu menghitung usia relatif terhadap tahun 2023:
 ```
+usia = 2023 - tahun_lahir
 ```
 
 ## 💻 Bahasa Pemrograman
@@ -30,10 +34,25 @@ Berdasarkan input tahun lahir, lalu menghitung usia relatif terhadap tahun 2023:
 ```
 2. Compile menggunakan compiler C++, seperti g++:
 ```
+g++ aplikasi.cpp -o aplikasi
+```
+3. Jalankan program:
+```
+./aplikasi
 ```
 
 ## 🧪 Contoh Output
 ```
+MENU APLIKASI
+1. Menghitung Luas Segitiga
+2. Menghitung Volume Tabung
+3. Menghitung Usia
+
+Masukan Menu = 1
+Menghitung Luas Segitiga
+Masukan alas = 10
+Masukan Tinggi = 5
+Luas Segitiga 25
 ```
 
 ## 📁 Struktur File
