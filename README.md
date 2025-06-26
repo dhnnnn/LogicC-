@@ -1,1 +1,1 @@
-# LogicC-
+# LogicC++
